@@ -15,12 +15,15 @@
 <script>
 
 $(document).ready(function() {
-	console.log("test");
+	console.log("Example of PHash");
+
+	//var imageList = $('img').each(function(){ imagePHash(this); });
 	
-	var imageList = $('img').each(function(){ imagePHash(this); });
-	
-	//var test_image = $("#test_image");
-	/console.log(test_image);
+	var img = document.getElementById('test_image');
+	var pHash = imagePHash(img);
+
+	console.log(img);
+	console.log(pHash);
 });
 
 </script>
