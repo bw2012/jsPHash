@@ -1,2 +1,2 @@
 # jsPHash
-Perceptual hash javascript implementation
+Image perceptual hash (pHash) javascript implementation.
