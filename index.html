@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="phash.js" crossorigin="anonymous"></script>
+
+<title>PHash example page</title>
+</head>
+<body>
+
+<img id="test_image" src='test.jpeg' width=600/>
+
+<script>
+
+$(document).ready(function() {
+	console.log("test");
+	
+	var imageList = $('img').each(function(){ imagePHash(this); });
+	
+	//var test_image = $("#test_image");
+	/console.log(test_image);
+});
+
+</script>
+
+
+</body>
+</html>
